@@ -7,16 +7,16 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.7",
     "@babel/core": "^7.16.7",
     "@babel/node": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
-    "nodemon": "^2.0.15",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "nodemon": "^2.0.15"
     
   },
   "dependencies": {
