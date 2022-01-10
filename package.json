@@ -1,4 +1,5 @@
 {
+  "homepage": "https://koreanleo.github.io/nodejs_test",
   "name": "zoom",
   "version": "1.0.0",
   "description": "Zoom Clone using WebRTC and Websockeets",
@@ -14,6 +15,7 @@
     "@babel/node": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
     "nodemon": "^2.0.15"
+    
   },
   "dependencies": {
     "express": "^4.17.2",
